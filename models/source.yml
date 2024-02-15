@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: public
+    description: "Machine learning raw tables"
+    database: mlops_tf
+    schema: public
+    tables:
+    - name: scores
+    - name: users
+    - name: movies
